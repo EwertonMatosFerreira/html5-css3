@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem</title>
+</head>
+<body>
+    <h1>Os benefícios da leitura</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/leitura-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/leitura-m.png" type="image/png">
+
+        <img src="img/leitura-g.png">
+    </picture>
+    <p>A leitura melhora sua capacidade cognitiva, ajuda a ter uma mémoria mais afiada em relação as outras pessoas que não tem p hábito de ler, também ajuda a absorver com mais facilidade conteúdos complexos que normalmente levaria mais tempo de aprender. </p>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTMLS.</p>
+    <!--<audio src="midia/ZÉ VAQUEIRO AS MELHORES MÚSICAS 2023 (192 kbps).mp3" controls autoplay ></audio>-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/ZÉ VAQUEIRO AS MELHORES MÚSICAS 2023 (192 kbps).mp3" type="audio/mpeg">
+        <source src="midia/ZÉ VAQUEIRO AS MELHORES MÚSICAS 2023 (192 kbps).ogg" type="audio/ogg">
+        <source src="midia/ZÉ VAQUEIRO AS MELHORES MÚSICAS 2023 (192 kbps).wav" type="audio/wav">
+        <p>Infelizmente seu navedor não consegue reproduzir áudio.<a href="midia/ZÉ VAQUEIRO AS MELHORES MÚSICAS 2023 (192 kbps).mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

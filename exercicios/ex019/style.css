@@ -1,0 +1,35 @@
+@charset "UTF-8"; 
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align:center;
+    font-family:Georgia;
+    color:#00A8FE;
+}
+
+h2{
+    color:#00429B;
+}
+
+h1#primeiro{
+    color:#00A8FE;
+    text-align:left;
+}
+
+#segundo{
+    color:#FF8552;
+    text-align:right;
+}
+
+.terceiro{
+    color:#297373;
+}
+
+.quarto{
+    color:#FF8552;
+}
