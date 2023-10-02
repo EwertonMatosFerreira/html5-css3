@@ -1,0 +1,31 @@
+body{
+    background-image: url('imagens/pexels-dominika-poláková-18344225.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+
+div.bloco{
+    background-image: url('imagens/newyork.jpg');
+    height: 200px;
+    margin: 10px;
+
+}
+
+div#q1{
+    background-position: left top;
+}
+
+div#q2{
+    background-position: left center;
+}
+
+div#q3{
+    background-position: right bottom;
+}
+
+div#q4{
+    background-position:center center ;
+}
+
+div#q5{background-position: bottom center;}
+
