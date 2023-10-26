@@ -148,12 +148,15 @@ button{
     display: block;
     margin-top: 90px;
     margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: var(--font-links);
 }
 
 a{
     text-decoration: none;
     color: var(--cor3);
-    font-size: 1rem;
+    
+
   
 }
 
